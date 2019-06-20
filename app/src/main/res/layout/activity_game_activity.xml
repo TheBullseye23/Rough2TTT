@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/l2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292526"
+    tools:context=".game_activity">
+
+    <EditText
+        android:id="@+id/t2-text"
+        android:layout_width="263dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#E6CD1E"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+
+    <com.hfad.rough2ttt.Board
+        android:id="@+id/imageView"
+        android:layout_width="351dp"
+        android:layout_height="391dp"
+        android:background="#292526"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="172dp" />
+</android.support.constraint.ConstraintLayout>
